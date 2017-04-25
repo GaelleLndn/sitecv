@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gaëlle Méric</title>
+  <meta charset="utf8">	
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barrio">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<div class="wrapper">
+<!-- ********* NAVBAR **********-->	
+		<nav id="myNavbar" class="navbar  navbar-default navbar-fixed-top navbar-inner colnav" role="navigation">
+			<div class="container">
+				<div class="navbar-header colnav">
+					<button class="navbar-toggle collapsed colnav" data-toggle="collapse" data-target="#toggle-menu" araia-expanded="false"  type="button">
+						<span class="colnav sr-only">Toggle navigation</span>
+				            <span class="colnav icon-bar"></span>
+				            <span class="colnav icon-bar"></span>
+				            <span class="colnav icon-bar"></span>
+					</button>
+					<a class="colnav navbar-brand" href="#">Gaëlle Méric</a>
+				</div>
+				<div class="navbar-collapse collapse" id="toggle-menu">
+					<ul class="nav navbar-nav navbar-right" id="lienmenu">
+						<li>
+							<a class="colnav" href="#contact">Contact</a>
+						</li>
+						<li>
+							<a class="colnav" href="#profil">Profil</a>
+						</li>
+						<li>
+							<a class="colnav" href="#competences">Compétences</a>
+						</li>
+						<li>
+							<a class="colnav" href="#parcours">Parcours</a>
+						</li>
+						<li>
+							<a class="colnav" href="#hobbies">+</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>	<!-- ********* END NAVBAR **********-->
+
+<!-- ********* INTRO **********-->	
+		<section id="intro" class="section">
+			<video autoplay loop poster="images/Bokeh-Tov.jpg">
+				<source src="video/Bokeh-Tov/Bokeh-Tov.mp4" type="video/mp4">
+				<source src="video/Bokeh-Tov/Bokeh-Tov.webm" type="video/webm">
+			</video>
+			<div class="container-fluid">
+				<div class="row img-responsive intro1">
+					<div class="col-xs-12 gaelle">
+						<div class="col-lg-offset-5 col-sm-offset-6 col-xs-12 hello"> 
+							<h1>GAËLLE</h1><br/> 
+							<h1>MÉRIC</h1>
+						</div>	<!--END Hello-->
+					</div> <!--END Gaelle-->
+				</div> <!--END ROW -->
+			</div>	<!--END CONTAINER-FLUID -->
+		</section> <!-- *********** END SECTION #INTRO ****************-->
+
+<!-- ********* INFO CONTACT **********-->	
+		<section id="contact">
+			<div class="container-fluid">
+				<div class="row infocontact">
+					<div class="col-lg-offset-1 col-md-12 col-sm-12 col-xs-12 info-contact">
+						<div class="col-lg-3 col-md-4">
+							<div class="contact-item animated EMAIL" id="fade-in-left">
+								<div class="enveloppe">
+									<span class="glyphicon glyphicon-envelope"></span>
+								</div>	
+								<div class="adressemail">	
+									<h4 class="contacth5">contact@gaellemeric.com</h4>
+								</div>	
+							</div>
+						</div> <!-- *********** END EMAIL CONTACT ****************-->
+						<div class="col-lg-offset-1 col-lg-3 col-md-4">
+							<div class="contact-item animated TELEPHONE" id="zoom-in">
+								<div class="mobile">
+									<span class="glyphicon glyphicon-phone"></span>
+								</div>	
+								<div class="numtel">	
+									<h4 class="contacth5">01 02 03 04 05</h4>
+								</div>	
+							</div>
+						</div><!-- *********** END TELEPHONE CONTACT ****************-->
+						<div class="col-lg-offset-1 col-lg-3 col-md-4">
+							<div class="contact-item animated ADRESSE" id="fade-in-right">
+								<div class="adresse">
+									<span class="glyphicon glyphicon-map-marker"></span>
+								</div>	
+								<div class="numtel">	
+									<h4 class="contacth5">75018 PARIS</h4>
+								</div>	
+							</div>
+						</div><!-- *********** END ADRESSE CONTACT ****************-->
+					</div><!-- *********** END DIV INFO CONTACT ****************-->
+				</div><!-- *********** END ROW PROFIL CONTACT ****************-->
+			</div><!-- *********** END CONTAINER PROFIL CONTACT ****************-->
+		</section><!-- *********** END SECTION PROFIL CONTACT ****************-->
+
+<!-- **************** PROFIL ************-->
+
+		<section id="profil">
+			<div class="container-fluid">
+				<div class="row profil-titre">
+					<div class="col-lg-offset-1 col-lg-10 col-md-10 col-sm-10 col-xs-10">
+						<h2>Gaëlle Méric</h2>
+						<p>Web content & design. Wordpress. Apprentie Fullstack Javascript</p>
+					</div>
+				</div>	<!--END ROW PROFIL-TITRE-->
+
+				<div class="row profil-items-all-container ">
+					<div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 bordurePlace">
+						<div class="row profil-items-all">
+
+							<div class="col-lg-3 col-md-3 col-sm-6 hidden-xs profil-photo">
+								<div class="profil-element img-responsive photo">
+									<img src="images/profil.jpg">
+								</div>	
+							</div> <!--END COL PROFIL-PHOTO-->
+
+							<div id="skills" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 profil-skillset">
+								<div class="profil-element skillset-widget">
+									<h3>Compétences</h3>
+									<h5>FRONTEND</h5>
+									<div class="skillbar clearfix " data-percent="60%">
+										<div class="skillbar-bar" style="background: #3D3D3D;"></div>
+									</div> <!-- End Skill Bar -->
+
+									<h5>BACKEND</h5>
+									<div class="skillbar clearfix " data-percent="10%">
+										<div class="skillbar-bar" style="background: #3D3D3D;"></div>
+									</div> <!-- End Skill Bar -->
+
+									<h5>CMS/FRAMEWORKS</h5>
+									<div class="skillbar clearfix " data-percent="60%">
+										<div class="skillbar-bar" style="background: #3D3D3D;"></div>
+									</div> <!-- End Skill Bar -->
+
+									<h5>GRAPHISME</h5>
+									<div class="skillbar clearfix " data-percent="70%">
+										<div class="skillbar-bar" style="background: #3D3D3D;"></div>
+									</div> <!-- End Skill Bar -->
+
+									<h5>CONTENT/SEO</h5>
+									<div class="skillbar clearfix " data-percent="50%">
+										<div class="skillbar-bar" style="background: #3D3D3D;"></div>
+									</div> <!-- End Skill Bar -->
+
+									<h5>ANGLAIS</h5>
+									<div class="skillbar clearfix " data-percent="100%">
+										<div class="skillbar-bar" style="background: #3D3D3D;"></div>
+									</div> <!-- End Skill Bar -->
+								</div> <!--END SKILLSET WIDGET-->
+							</div> <!--END COL SKILLSET-->
+
+
+
+							<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 profil-text">
+								<div class="profil-element text_profil">	
+									<h3>Le code et moi</h3>
+									<p>L'histoire est relativement neuve, mais à l'instant où j'ai posé le pied sur le continent numérique, j'ai compris ce qu'a dû ressentir Christophe Colomb. Le champ des possibilités me semble s'étendre à l'infini.</p>
+									<p>J'envisage l'apprentissage d'un langage de programmation comme on apprend la langue d'un pays dans lequel on va s'installer pour de bon, et mon objectif est de devenir bilingue.
+									</p>
+								</div>
+							</div><!--END COL TEXT PROFIL-->
+
+						</div><!--END ROW PROFIL-ITEMS-ALL-->
+					</div><!--END COL PROFIL-ITEMS-ALL-CONTAINER-->
+				</div><!--END ROW PROFIL-ITEMS-ALL-CONTAINER-->
+
+			</div>	<!--END CONTAINER-FLUID PROFIL-->
+		</section> <!-- *********** END SECTION #PROFIL ****************-->
+
+<!-- **************** COMPETENCES ************-->
+
+		<section id="competences">
+			<div class="container-fluid">
+				<div class="row competences_titre">
+					<div class="col-lg-offset-1 col-lg-10 col-md-10 col-sm-10 col-xs-10">
+						<h2>Ce que je sais faire</h2>
+						<p>...entre autre</p>
+					</div><!--END COL COMPETENCES-->
+				</div><!--END ROW COMPETENCES_titre-->
+				
+				<div class= "row competences-item-all-container">
+					<div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 bordurePlace">
+
+						<div class= "row service-item-all">
+
+						
+								<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 competence-item">
+									<div class="service-item animated" id ="1_competence">
+										<div class="pencil">
+											<span class=""></span>
+										</div>	
+										<h4 style="color:#438e89">Ecouter et analyser</h4>
+										<div class="text">
+											<p></p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 competence-item">
+									<div class="service-item animated" id ="2_competence">
+										<div class="2_pencil">
+											<span class=""></span>
+										</div>	
+										<h4 style="color:#438e89">M'adapter</h4>
+										<div class="text">
+											<p></p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 competence-item">
+									<div class="service-item animated" id ="3_competence">
+										<div class="pencil">
+											<span class=""></span>
+										</div>	
+										<h4 style="color:#438e89">Apprendre et persévérer</h4>
+										<div class="text">
+											<p></p>
+										</div>
+									</div>
+								</div>
+
+						</div><!--END ROW COMPETENCES-ITEMS-ALL-->
+					
+
+				<!-- ****** OUTILS **********-->
+				
+						<div class= "row outil-item-all">
+
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class= "row competences-outils-titre">
+									<h3>Outils</h3>
+								</div>
+							</div>
+						
+							<div class= "row outil-item">
+
+								<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 competence-outil-item">
+									<div class="service-item animated" id ="1_outil">
+										<h4>Frontend</h4>
+										<div class='outil-item-a'>
+											<div class="outil-icone">
+												<img src="images/Html5.png" alt="html5" data-toggle="tooltip" data-placement="bottom" data-animation="true" data-container='body' title="HTML5" class="icone-tooltip img-responsive">
+											</div>
+											<div class="outil-icone">
+												<img src="images/CSS.png" alt="CSS3" data-toggle="tooltip" data-placement="bottom" data-animation="true" data-container='body' title="CSS3" class="icone-tooltip img-responsive">
+											</div>
+											<div class="outil-icone">
+												<img src="images/Javascript.png" alt="Javascript" data-toggle="tooltip" data-placement="bottom" data-animation="true" data-container='body' title="Javascript" class="icone-tooltip img-responsive">
+											</div>
+										</div>	
+									</div>
+								</div>
+
+								<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 competence-outil-item">
+									<div class="service-item animated" id ="2_outil">
+										<h4>CMS/Frameworks</h4>
+										<div class='outil-item-a'>
+											<div class="outil-icone">
+												<img src="images/wordpress.png" alt="Wordpress" data-toggle="tooltip" data-placement="bottom" data-animation="true" data-container='body' title="Wordpress" class="icone-tooltip img-responsive">
+											</div>
+											<div class="outil-icone">
+												<img src="images/woocommerce.png" alt="Woocommerce" data-toggle="tooltip" data-placement="bottom" data-animation="true" data-container='body' title="Woocommerce" class="icone-tooltip img-responsive">
+											</div>
+											<div class="outil-icone">
+												<img src="images/bootstrap.png" alt="Bootstrap" data-toggle="tooltip" data-placement="bottom" data-animation="true" data-container='body' title="Bootstrap" class="icone-tooltip img-responsive">
+											</div>
+											<div class="outil-icone">
+												<img src="images/mailchimp.png" alt="Mailchimp" data-toggle="tooltip" data-placement="bottom" data-animation="true" data-container='body' title="Mailchimp" class="icone-tooltip img-responsive">
+											</div>
+										</div>	
+									</div>
+								</div>
+
+								<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 competence-outil-item">
+									<div class="service-item animated" id ="3_outil">
+										<h4>Projet</h4>
+										<div class='outil-item-a'>
+											<div class="outil-icone">
+												<img src="images/balsamiq.png" alt="Balsamiq" data-toggle="tooltip" data-placement="bottom" data-animation="true" data-container='body' title="Balsamiq" class="icone-tooltip img-responsive">
+											</div>
+											<div class="outil-icone">
+												<img src="images/trello.png" alt="Trello" data-toggle="tooltip" data-placement="bottom" data-animation="true" data-container='body' title="Trello" class="icone-tooltip img-responsive">
+											</div>
+											<div class="outil-icone">
+												<img src="images/github.png" alt="Github" data-toggle="tooltip" data-placement="bottom" data-animation="true" data-container='body' title="Github" class="icone-tooltip img-responsive">
+											</div>
+											<div class="outil-icone">
+												<img src="images/msoffice.png" alt="MsOffice" data-toggle="tooltip" data-placement="bottom" data-animation="true" data-container='body' title="MsOffice" class="icone-tooltip img-responsive">
+											</div>
+										</div>	
+									</div>
+								</div>
+
+								<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 competence-outil-item">
+									<div class="service-item animated" id ="4_outil">					
+										<h4>Graphisme</h4>
+										<div class='outil-item-a'>
+											<div class="outil-icone">
+												<img src="images/gimp.png" alt="Gimp" data-toggle="tooltip" data-placement="bottom" data-animation="true" data-container='body' title="Gimp" class="icone-tooltip img-responsive">
+											</div>
+											<div class="outil-icone">
+												<img src="images/photoshop.png" alt="Photoshop" data-toggle="tooltip" data-placement="bottom" data-animation="true" data-container='body' title="Photoshop" class="icone-tooltip img-responsive">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div><!--END ROW outils-ITEMS-ALL-->
+					
+					</div><!--END COL COMPETENCES-ITEMS-ALL-CONTAINER-->
+				</div><!--END ROW COMPETENCES-ITEMS-ALL-CONTAINER-->
+
+			
+			</div><!--END CONTAINER-FLUID COMPETENCES-->
+		</section><!-- *********** END SECTION #COMPETENCES ****************-->
+
+
+
+<!--******************* SECTION PARCOURS **********************-->
+		<section id="parcours">
+			<div class="container-fluid">
+				
+				<div class="row parcours_titre">
+					<div class="col-lg-offset-1 col-lg-10 col-md-10 col-sm-10 col-xs-10">
+						<h2>Mon Parcours</h2>
+						<p>Formations et expériences</p>
+					</div>
+				</div>
+
+				<div class="row parcours-items-all-container">
+					<div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 bordurePlace">
+
+		<!--******************* EDUCATION **********************-->			
+						<div class= "row parcours-education-titre">
+								<h3>Formations</h3>
+						</div>
+
+
+						<div class="row formation formation-1">
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 intitule">
+								<div class="icon-intitule">
+									<div class="icon">
+										<i class="material-icons icons-formation">code</i>
+									</div>
+									<div class="intitule">
+										<h4>Fullstack Javascript</h4>
+									</div>
+								</div>	
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 lieu">
+								<p>SIMPLON.CO, Paris</p>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 periode">
+								<p>2017</p>
+							</div> 
+						</div>
+
+						<div class="row formation formation-2">
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 intitule">
+								<div class="icon-intitule">
+									<div class="icon">
+										<i class="material-icons icons-formation">code</i>
+									</div>
+									<div class="intitule">
+										<h4>Webdesign pour Wordpress</h4>
+									</div>
+								</div>	
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 lieu">
+								<p>LES GOBELINS, Paris</p>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 periode">
+								<p>2016</p>
+							</div> 
+						</div>
+
+						<div class="row formation formation-3">
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 intitule">
+								<div class="icon-intitule">
+									<div class="icon">
+										<i class="material-icons icons-formation">code</i>
+									</div>
+									<div class="intitule">
+										<h4>Rédacteur Web</h4>
+									</div>
+								</div>	
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 lieu">
+								<p>IFOCOP, Paris</p>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 periode">
+								<p>2015</p>
+							</div> 
+						</div>
+
+						<div class="row formation formation-4">
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 intitule">
+								<div class="icon-intitule">
+									<div class="icon">
+										<i class="material-icons icons-formation">school</i>
+									</div>
+									<div class="intitule">
+										<h4>Master II Communication</h4>
+									</div>
+								</div>	
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 lieu">
+								<p>UNIVERSITY OF WESTMINSTER, Londres</p>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 periode">
+								<p>2007</p>
+							</div> 
+						</div>
+
+						<div class="row formation formation-5">
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 intitule">
+								<div class="icon-intitule">
+									<div class="icon">
+										<i class="material-icons icons-formation">school</i>
+									</div>
+									<div class="intitule">
+										<h4>Master I Information et Communication</h4>
+									</div>
+								</div>	
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 lieu">
+								<p>ISCEA, Angers</p>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 periode">
+								<p>2003</p>
+							</div> 
+						</div>
+
+		<!--******************* EXPERIENCES **********************-->	
+
+						<div class= "row parcours-experience-titre">
+								<h3>Expériences</h3>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-8 col-md-8 col-sm-11 col-xs-11" id="parcours-accordeon">
+						    	<div class="panel-group wrap" id="accordion" role="tablist" aria-multiselectable="true">
+
+						    		<div class="panel">
+								        <div class="panel-heading" role="tab" id="headingSix">
+								          	<h4 class="panel-title">
+									        	<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+									         	Web content & design, AUTO-ENTREPRISE, Paris
+									        	</a>
+								      		</h4>
+								        </div>
+
+								        <div id="collapseSix" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingSix">
+								          	<div class="panel-body">
+								           		<div class="row">
+									            	<div class="col-md-9">
+										           <p>Réalisation de sites web sur Wordpress ( je prends en charge l'aspect graphique, technique et rédactionnel de mes productions) | Rédaction et réalisation de newsletters avec Mailchimp.</p>
+										            </div>
+								            		<div class="col-md-3">
+								            		de 01/2015 à aujourd'hui
+								            		</div>
+								            	</div>
+								          	</div>
+								        </div>
+							    	</div><!-- end of panel -->
+
+							    	<div class="panel">
+								        <div class="panel-heading" role="tab" id="headingSeven">
+								          	<h4 class="panel-title">
+									        	<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+									         	Chargée Editoriale Web, LO/A Library Of Arts, Paris
+									        	</a>
+								      		</h4>
+								        </div>
+
+								        <div id="collapseSeven" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingSeven">
+								          	<div class="panel-body">
+								           		<div class="row">
+									            	<div class="col-md-9">
+										           <p>Rédaction des fiches des livres d'art, magazines et fanzines vendus via Prestashop | Rédaction de la présentation d'artistes et expositions ayant eu lieu dans la galerie de la librairie | SMO</p>
+										            </div>
+								            		<div class="col-md-3">
+								            		de 07/2015 à 03/2016
+								            		</div>
+								            	</div>
+								          	</div>
+								        </div>
+								    </div><!-- end of panel -->
+
+							      <div class="panel">
+								        <div class="panel-heading" role="tab" id="headingHeight">
+								          	<h4 class="panel-title">
+									        	<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseHeight" aria-expanded="false" aria-controls="collapseHeight">
+									         	Manager Librairie/Papeterie, AGORA PRESSE ETC, Paris
+									        	</a>
+								      		</h4>
+								        </div>
+
+								        <div id="collapseHeight" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingHeight">
+								          	<div class="panel-body">
+								           		<div class="row">
+									            	<div class="col-md-9">
+										            <p>Gestion des stocks et réassorts | Veille culturelle et mise en place d'opérations d'animation du point de vente | Accueil, conseil, vente.</p>
+										            </div>
+								            		<div class="col-md-3">
+								            		de 01/2013 à 10/2014
+								            		</div>
+								            	</div>
+								          	</div>
+								        </div>
+								    </div><!-- end of panel -->
+
+							      <div class="panel">
+								        <div class="panel-heading" role="tab" id="headingNine">
+								          	<h4 class="panel-title">
+									        	<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+									         	Chargée de Projet, DEMASQUEZ PARIS, Paris
+									        	</a>
+								      		</h4>
+								        </div>
+
+								        <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
+								          	<div class="panel-body">
+								           		<div class="row">
+									            	<div class="col-md-9">
+										            <p>Recherche et mise en place de partenariats | Rédaction et création d'outils de communication | Community management | Référencement | Reporting.</p>
+										            </div>
+								            		<div class="col-md-3">
+								            		de 05/2012 à 11/2012
+								            		</div>
+								            	</div>
+								          	</div>
+								        </div>
+								    </div><!-- end of panel -->
+
+							      <div class="panel">
+								        <div class="panel-heading" role="tab" id="headingTen">
+								          	<h4 class="panel-title">
+									        	<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+									         	Guest Relation Manager, ANJAJAVY LE LODGE, Madagascar
+									        	</a>
+								      		</h4>
+								        </div>
+
+								        <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
+								          	<div class="panel-body">
+								           		<div class="row">
+									            	<div class="col-md-9">
+										            <p>Accueil et suivi de la clientèle Relais & Châteaux| Gestion des requêtes | Actualisation des outils de communication.</p>
+										            </div>
+								            		<div class="col-md-3">
+								            		de 04/2011 à 01/2012
+								            		</div>
+								            	</div>
+								          	</div>
+								        </div>
+								    </div><!-- end of panel -->
+
+							      <div class="panel">
+								        <div class="panel-heading" role="tab" id="headingEleven">
+								          	<h4 class="panel-title">
+									        	<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+									         	Assistante Marketing, NETPARTNERING, Paris
+									        	</a>
+								      		</h4>
+								        </div>
+
+								        <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEleven">
+								          	<div class="panel-body">
+								           		<div class="row">
+									            	<div class="col-md-9">
+										            <p>Rédaction et mise en page de supports de marketing direct | Reporting | Gestion de bases de données.</p>
+										            </div>
+								            		<div class="col-md-3">
+								            		de 05/2009 à 09/2010
+								            		</div>
+								            	</div>
+								          	</div>
+								        </div>
+								    </div><!-- end of panel -->
+
+							      <div class="panel">
+								        <div class="panel-heading" role="tab" id="headingTwelve">
+								          	<h4 class="panel-title">
+									        	<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+									         	Fundraising Administrator, NOTTING HILL HOUSING TRUST, Londres
+									        	</a>
+								      		</h4>
+								        </div>
+
+								        <div id="collapseTwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwelve">
+								          	<div class="panel-body">
+								           		<div class="row">
+									            	<div class="col-md-9">
+										            <p>Liaison avec les donateurs | Rédaction et actualisation des outils de communication web et papier | Reporting.</p>
+										            </div>
+								            		<div class="col-md-3">
+								            		de 01/2007 à 05/2009
+								            		</div>
+								            	</div>
+								          	</div>
+								        </div>
+								    </div><!-- end of panel -->
+
+
+						    	</div>
+						    </div>	
+
+
+<!-- ************** LE DANSEUR *************************************************************-->
+						    <div class="col-lg-4 col-md-4 hidden-sm hidden-xs" id="danseur">
+						    	<div class="bonhomme">
+									<div class="tete-corps-haut">
+										<div class="tete">
+											<div class="visage">
+												<div class="yeux">
+													<div class="oeil-gauche">
+														<div class="pupille">
+														</div>
+													</div>
+													<div class="oeil-droite">
+														<div class="pupille">
+														</div>
+													</div>
+													<div class="blink"></div>
+												</div>	
+												<div class="bouche">
+												</div>
+												<div class="kiss"></div>
+											</div>	
+											<div class="cou">
+											</div>
+										</div><!--- END TETE-->
+										<div class="corps-haut">
+											<div class="bras-gauche">
+												<div class="manche-gauche">
+												</div>
+												<div class="main-gauche">
+												</div>
+											</div>
+											<div class="tronc">
+											</div>
+											<div class="bras-droite">
+												<div class="manche-droite">
+												</div>
+												<div class="main-droite">
+												</div>
+											</div>
+										</div><!--END CORPS-HAUT-->
+									</div><!--END TETE-CORPS-HAUT-->
+									<div class="corps-bas">
+										<div class="hanches">
+										</div>
+										<div class='jambes'>
+											<div class="jambe-gauche">
+												<div class="pantalon-gauche">
+												</div>
+												<div class="chaussure-gauche">
+												</div>
+											</div>
+											<div class="jambe-droite">
+												<div class="pantalon-droite">
+												</div>
+												<div class="chaussure-droite">
+												</div>
+											</div>	
+										</div>
+									</div><!--END CORPS-BAS-->
+								</div><!--END BONHOMME-->
+								<button id="myBtn" >Let's dance!</button>
+						    </div>
+
+
+						</div>    	
+
+					</div><!--END COL PARCOURS-ITEMS-ALL-CONTAINER-->
+				</div><!--END ROW PARCOURS-ITEMS-ALL-CONTAINER-->
+				
+			</div><!--END CONTAINER-FLUID PARCOURS-->
+		</section><!-- *********** END SECTION #PARCOURS ****************-->
+
+<!-- **************** SECTION HOBBIES ************-->
+
+		<section id="hobbies">
+			<div class="container-fluid">
+
+				<div class="row hobbies_titre">
+					<div class="col-lg-offset-1 col-md-12 titre">
+						<h2>Informations supplémentaires</h2>
+					</div>
+				</div>
+
+				<div class= "row hobbies-item-all-container">
+					<div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 bordurePlace">
+
+						<div class= "row parcours-experience-titre">
+								<h3>Mes centres d'intérêt</h3>
+						</div>
+
+						<div class= "row hobbies-item-all">
+
+						
+								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 hobbies-item">
+									<div class="hobbies-item animated" id ="1_hobbies">
+										<div class="hobbies-icone">
+											<img src="images/livres.png" alt="Lecture">
+										</div>	
+										<h4>Lecture</h4>
+										<div class="text">
+											<p>Camus, Rilke, Zweig, Boulgakov (et d'une manière générale les auteurs russes classiques) sont pour moi de vrais explorateurs de l'âme humaine.</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 hobbies-item">
+									<div class="hobbies-item animated" id ="2_hobbies">
+										<div class="hobbies-icone">
+											<img src="images/spectacles.png" alt="Spectacles">
+										</div>	
+										<h4>Spectacles vivants</h4>
+										<div class="text">
+											<p>Du théâtre à la danse contemporaine en passant par les concerts rock ou électro, les spectacles vivants me transportent et j'en reviens à chaque fois plus... vivante.</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 hobbies-item">
+									<div class="hobbies-item animated" id ="3_hobbies">
+										<div class="hobbies-icone">
+											<img src="images/couture.png" alt="couture">
+										</div>	
+										<h4>Couture</h4>
+										<div class="text">
+											<p>Une vraie découverte cette machine à coudre ! Je conçois et réalise principalement des accessoires et des vêtements.</p>
+										</div>
+									</div>
+								</div>
+							
+
+						</div><!--END ROW HOBBIES-ITEMS-ALL-->
+
+
+						<div id="progbar" class= "row hobbies-progbar-titre">
+								<h3>C'est hors sujet</h3>
+								<p>Mais j'aime bien ces progress bars...</p>
+						</div>
+
+
+						<div class="row hobbies-langues">
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 ">
+								<div classe="Langue_allemand">
+									<div id="langue2"></div>
+									<p>Selon un rapport de la CIA, 1500 soucoupes volantes ont été signalées entre 1947 et 1952. 20% de ces apparitions restent encore inexpliquées.</p>
+									<a href="https://www.sciencesetavenir.fr/espace/vie-extraterrestre/extraterrestres-la-cia-ouvre-ses-x-files_30936">(source)</a>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 ">
+								<div classe="Langue_anglais">
+									<div id="langue1"></div>
+									<p>Pour 35% de la population, le fait de regarder le soleil provoquerait des éternuements.</p>
+									<a href="https://www.scientificamerican.com/article/looking-at-the-sun-can-trigger-a-sneeze/">(source)</a>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 ">
+								<div classe="Langue_russe">
+									<div id="langue3"></div>
+									<p>100% des gagnants des concours de Mister/Miss Univers proviendraient de la Planète Terre</p>
+									<a href="https://www.gaellemeric.com">(source)</a>
+								</div>
+							</div>
+						</div>
+							
+
+						</div><!--END ROW PROGBAR-->
+
+					
+					</div><!--END COL HOBBIES-ITEMS-ALL-CONTAINER-->
+				</div><!--END ROW HOBBIES-ITEMS-ALL-CONTAINER-->
+
+
+
+
+
+			</div>	<!--END CONTAINER-FLUID Hobbies-->
+		</section> <!-- *********** END SECTION #HOBBIES ****************-->
+
+		<footer id="footer">
+					<div class="container-fluid">
+						<div class="row imgFooter"></div>
+					</div>
+		</footer>
+
+
+	</div> <!--END WRAPPER-->
+
+
+<!-- ********************* LIENS SCRIPTS **********************-->
+
+<script src="https://use.fontawesome.com/94da5d6b16.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="/path/to/noframework.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="waypoints/lib/jquery.waypoints.js"></script>
+<script src="waypoints/shortcuts/inview.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.0.1/progressbar.min.js"></script>
+
+<script src="effects.js"></script>
+
+
+
+</body>
+
+</html>
